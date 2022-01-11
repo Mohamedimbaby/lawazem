@@ -1,0 +1,1287 @@
+{
+  "home" : "Home",
+  "@home": {
+    "description": "The conventional newborn programmer greeting"
+  },"paymentMethod" : "Payment Method",
+  "@paymentMethod": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "has_a_problem" : "has a problem",
+  "@has_a_problem": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "order_reservation_pending" : "Order Reservation Pending",
+  "@order_reservation_pending": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "getStarted" : "get Started",
+  "@getStarted": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "in_to_lawazem" : "in to Lawazem",
+  "@in_to_lawazem": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "processing" : "Processing",
+  "@processing": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "failed" : "Failed",
+  "@failed": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "city" : "City",
+  "@city": {
+    "description": "The conventional newborn programmer greeting"
+  },"cities" : "Cities",
+  "@cities": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "activity" : "Category",
+  "@activity": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "chrome_is_disabled" :" Your browser is not enabled ",
+  "@chrome_is_disabled": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "no_price" :" No Price ",
+  "@no_price": {
+    "description": "The conventional newborn programmer greeting"
+  },
+     "starting_from" :" Starting From ",
+  "@starting_from": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "hours" : "Hours",
+  "@hours": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "days" : "Days",
+  "@days": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "are_you_sure_you_want_to_logout" : "Are you sure you want to sign out ?",
+  "@are_you_sure_you_want_to_logout": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "skip" : "Skip",
+  "@skip": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "change_language" : "Change Language",
+  "@change_language": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "arabicLanguage" : "Arabic Language",
+  "@arabicLanguage": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "please_enter_valid" : "please enter valid",
+  "@please_enter_valid": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "company" : "Arabic Language",
+  "@company": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "cr_number" : "CR Number",
+  "@cr_number": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "update_account" : "Update Account",
+  "@update_account": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "about_us" : "About Us",
+  "@about_us": {
+    "description": "The conventional newborn programmer greeting"
+  }, "no_more_trips" : "No More Trips",
+  "@no_more_trips": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "filter_and_sort" : "Filter & Sort",
+  "@filter_and_sort": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "availability" : "Availability",
+  "@availability": {
+    "description": "The conventional newborn programmer greeting"
+  },"star_rating" : "Star Rating",
+  "@star_rating": {
+    "description": "The conventional newborn programmer greeting"
+  },"price_range" : "Price Range (SAR) ",
+  "@price_range": {
+    "description": "The conventional newborn programmer greeting"
+  },"exclusions" : "Exclusions",
+  "@exclusions": {
+    "description": "The conventional newborn programmer greeting"
+  },"if_you_have_questions" : "If You have any Questions",
+  "@if_you_have_questions": {
+    "description": "The conventional newborn programmer greeting"
+  },"contact_us" : "Contact Us ",
+  "@contact_us": {
+    "description": "The conventional newborn programmer greeting"
+  },"apply" : "Apply",
+  "@apply": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "available_time_slots" : "Available time slots",
+  "@available_time_slots": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "amount" : "Amount",
+  "@amount": {
+    "description": "The conventional newborn programmer greeting"
+  },"check_availability" : "Check Availability",
+  "@check_availability": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "time_slot" : "Time Slot",
+  "@time_slot": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "date_time" : "Date Time",
+  "@date_time": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "age_from_3_12" : "Age 3 to 12",
+  "@age_from_3_12": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "age_from_13_29" : "Age 13 to 99",
+  "@age_from_13_29": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "vat" : "Vat",
+  "@vat": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "clear_all" : "Clear all",
+  "@clear_all": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "filter" : "Filter",
+  "@filter": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "tomorrow" : "Tomorrow",
+  "@tomorrow": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "select_date" : "Select Date",
+  "@select_date": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "selected_date" : "Selected Date",
+  "@selected_date": {
+    "description": "The conventional newborn programmer greeting"
+  },
+    "add_comment" : "Add Comment",
+  "@add_comment": {
+    "description": "The conventional newborn programmer greeting"
+  },
+     "write_your_comment" : "Write Your Comment...",
+  "@write_your_comment": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "today" : "Today",
+  "@today": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "minimum_travelers" : "Minimum Travelers",
+  "@minimum_travelers": {
+    "description": "The conventional newborn programmer greeting"
+  },
+ "min_travelers" : "Min travelers",
+  "@min_travelers": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "max_travelers" : "Max travelers",
+  "@max_travelers": {
+    "description": "The conventional newborn programmer greeting"
+  },"booked_time" : "Booked Times",
+  "@booked_time": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "all" : "All",
+  "@all": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "pending" : "pending",
+  "@pending": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "duration" : "Duration",
+  "@duration": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "download" : "Download",
+  "@download": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "trip_program" : "Trip Program",
+  "@trip_program": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "trip_program_lowercase" : "trip program",
+  "@trip_program_lowercase": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "download_not_completed" : "the download not completed",
+  "@download_not_completed": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "downloading" : "Downloading ",
+  "@downloading": {
+    "description": "The conventional newborn programmer greeting"
+  },"document" : "Document ",
+  "@document": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "downloading_file" : "Downloading File",
+  "@downloading_file": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "topdestinations" : "Top Destinations",
+  "@topdestinations": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "top_guides" : "Tour Guides",
+  "@top_guides": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "refresh" : "Refresh",
+  "@refresh": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "release_to_refresh" : "Release to refresh",
+  "@release_to_refresh": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "complete_refresh" : "Refresh Completed",
+  "@complete_refresh": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "top_companies" : "Tour Companies",
+  "@top_companies": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "show_more_tours" : "Show more tours",
+  "@show_more_tours": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "discover" : "Discover",
+  "@discover": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "bookings" : "Bookings",
+  "@bookings": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "favorites" : "Favorites",
+  "@favorites": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "more" : "More",
+  "@more": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "toptours" : "Top Tours",
+  "@toptours": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "youmightlikethat" : "You might also like...",
+  "@youmightlikethat": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "changepassword" : "Change Password",
+  "@changepassword": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "hot" : "hot",
+  "@hot": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "metric" : "metric (km, m²)",
+  "@metric": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "celsius" : "Celsius (ْ c)",
+  "@celsius": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "version_1" : "1.0",
+  "@version_1": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "your_name_is_not_valid" : "Your name is required",
+  "@your_name_is_not_valid": {
+    "description": "The conventional newborn programmer greeting"
+  }, "name_on_card_is_required" : "Name on card is required",
+  "@name_on_card_is_required": {
+    "description": "The conventional newborn programmer greeting"
+  },  "you_must_agree_on_terms" : "You must agree on terms",
+  "@you_must_agree_on_terms": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "it_must_be_16_numbers" : "It must be 16 numbers",
+  "@it_must_be_16_numbers": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "you_email_has_wrong_format" : "Your email is not valid",
+  "@you_email_has_wrong_format": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "invalid_phone_number" : "Invalid phone number",
+
+  "@invalid_phone_number": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "it_must_be_a_valid_date" : "It must be a valid date",
+  "@it_must_be_a_valid_date": {
+    "description": "The conventional newborn programmer greeting"
+  },
+    "it_must_be_3_numbers" : "It must be 3 numbers",
+  "@it_must_be_3_numbers": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "total_payment" : "Total Payment",
+  "@total_payment": {
+    "description": "The conventional newborn programmer greeting"
+  },
+    "add_to_cart" : "Add to Cart",
+  "@add_to_cart": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "items_added_to_cart" : "Items added to cart!",
+  "@items_added_to_cart": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "there_is_no_items_in_cart" : "There are no items in the cart",
+  "@there_is_no_items_in_cart": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "there_is_no_items_in_favorite" : "You do not have favorite products yet",
+  "@there_is_no_items_in_favorite": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "thankyouforbooking" : "Thank you for booking this trip",
+  "@thankyouforbooking": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "thanks" : "Thanks ",
+  "@thanks": {
+    "description": "The conventional newborn programmer greeting"
+  }, "un_like" : "Un Like ? ",
+  "@un_like": {
+    "description": "The conventional newborn programmer greeting"
+  }, "are_you_sure_you_want_to_delete" : "Are you sure about deleting product from your cart ?",
+  "@are_you_sure_you_want_to_delete": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "topattractions" : "Top attractions ",
+  "@topattractions": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "empty_basket" : "Empty Basket",
+  "@empty_basket": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "your_basket_is_empty" : "Your basket is still empty, browse the attractive promos from Lawazem",
+  "@your_basket_is_empty": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "empty_fav" : "No Favorites Found",
+  "@empty_fav": {
+    "description": "The conventional newborn programmer greeting"
+  },"without_vat" : "without VAT",
+  "@without_vat": {
+    "description": "The conventional newborn programmer greeting"
+  }, "empty_fav_phrase" : "Open the product menu and select your favorite product",
+  "@empty_fav_phrase": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "reviewandbook"  : "Review and Book ",
+  "@reviewandbook": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "showall"  : "Show all ",
+  "@showall": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "payment"  : "Payment",
+  "@payment": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "cart"  : "Cart",
+  "@cart": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "delivery_address" : "Delivery Address",
+  "@delivery_address": {
+    "description": "The conventional newborn programmer greeting"
+  },"google_maps_url" : "Google maps URL ",
+
+  "@google_maps_url": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "recipient_mobile_number" : "Recipient Mobile Number",
+  "@recipient_mobile_number": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "please_enter_valid_number" : "Please Enter a valid Mobile Number",
+  "@please_enter_valid_number": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "please_enter_valid_url" : "Please Enter a valid Url",
+  "@please_enter_valid_url": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "order" : "Order",
+  "@orders": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "address" : "Address",
+  "@address": {
+    "description": "The conventional newborn programmer greeting"
+  },
+    "items" : "Items",
+  "@items": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "please_enter_valid_address" : "Please Enter a valid Address",
+  "@please_enter_valid_address": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "best_deals"  : "best deals ",
+  "@best_deals": {
+    "description": "The conventional newborn programmer greeting"
+  }, "order_now"  : "Order Now",
+  "@order_now": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "fillmobilenumber"  : "fill the mobile number please",
+  "@fillmobilenumber": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "agreetermsofuse" : "Agree terms of use privacy statement",
+  "@agreetermsofuse": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "privacy_policy" : "Privacy Policy",
+  "@privacy_policy": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "powered_by" : "Powered by Global Arabian for Modern",
+  "@powered_by": {
+    "description": "The conventional newborn programmer greeting"
+  },"powered_by2" : "Applications Itd. -GAMA  2021",
+  "@powered_by2": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "categories" : "Categories",
+  "@categories": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "booking_details" : "Booking Details",
+  "@booking_details": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "findeveryplace" : "Find every place around you",
+  "@findeveryplace": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "booking_total" : "Booking total",
+  "@booking_total": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "welcome" : "Welcome !",
+  "@welcome": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "cancel" : "Cancel",
+  "@cancel": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "confirmed" : "Confirmed",
+  "@confirmed": {
+    "description": "The conventional newborn programmer greeting"
+  },"cancelled" : "Canceled",
+  "@cancelled": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "welcometotripfinder" : " to Yalla Tour ",
+  "@welcometotripfinder": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "sloganstatement1st" : "The best way to meet people and try new activities.",
+  "@sloganstatement1st": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "sloganstatement2nd" : " Let's get started",
+  "@sloganstatement2nd": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "thereisnopromocode" : "There is no promo code for this booking",
+  "@thereisnopromocode": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "select_booking" : "Select booking",
+  "@select_booking": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "guests" : "Guests",
+  "@guests": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "promocode" : "Promo code",
+  "@promocode": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "applied" : "Applied",
+  "@applied": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "whatsnew" : "Whats new",
+  "@whatsnew": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "thistripforyou" : "This trip for you and the status of your booking is up to you, this trip for you and the status of your booking is up to you  , ",
+  "@thistripforyou": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "addedtofavorites"  : "Added to favorites ",
+  "@addedtofavorites": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "writereview"   : "Write a review ",
+  "@writereview": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "deletedfromfavorites"  : "Deleted from favorites ",
+  "@deletedfromfavorites": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "enjoyyourtrip" : "Enjoy your trip!",
+  "@enjoyyourtrip": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "orloginwith" : "or login with email",
+  "@orloginwith": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "thereisnowhatsnew" : "There is no new trips",
+  "@thereisnowhatsnew": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "bookingpayment" : "Booking payment",
+  "@bookingpayment": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "cardholdername" : "Name on card",
+  "@cardholdername": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "fill_your_data_first" : "Fill your data first",
+  "@fill_your_data_first": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "view_on_the_map" : "View on the map",
+  "@view_on_the_map": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "booking" : "Booking",
+  "@booking": {
+    "description": "The conventional newborn programmer greeting"
+  },  "refundable" : "Refundable",
+
+  "@refundable": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "trip_details" : "Trip Details",
+  "@trip_details": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "not_refundable" : "Not Refundable",
+  "@not_refundable": {
+    "description": "The conventional newborn programmer greeting"
+  },
+ "continue_with_google" : " Sign in with Google ",
+  "@continue_with_google": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "continue_with_apple" : " Sign in with Apple ",
+  "@continue_with_apple": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "continue_with_facebook" : " Sign in with Facebook ",
+  "@continue_with_facebook": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "there_is_no_details_for_this_trip" : "There is no details for this trip",
+  "@there_is_no_details_for_this_trip": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "there_is_no_home_data" : "There is no home data",
+  "@there_is_no_home_data": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "there_is_no_places" : "There are no available places",
+  "@there_is_no_places": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "there_are_no_comments" : "There is no comment",
+  "@there_are_no_comments": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "kindly_choose_another_date" : "Kindly choose another date",
+  "@kindly_choose_another_date": {
+    "description": "The conventional newborn programmer greeting"
+  },"there_is_no_favorite_trips_for_you" : "There is no favorite trips for you",
+  "@there_is_no_favorite_trips_for_you": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "cardexpiry" : "Expiry date",
+  "@cardexpiry": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "cvv" : "CVV",
+  "@cvv": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "cardnumber" : "Card number",
+  "@cardnumber": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "mastercard" : "mastercard",
+  "@mastercard": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "notifications" : "Notifications",
+  "@notifications": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "profile" : "Profile",
+  "@profile": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "search_activity" : "Search Category",
+  "@search_activity": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "search_city": "Search City",
+  "@search_city": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "logout" : "Log Out",
+  "@logout": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "starting" : "Starting: ",
+  "@starting": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "price_including_tax" : "Price Including Tax ",
+  "@price_including_tax": {
+    "description": "The conventional newborn programmer greeting"
+  },
+    "trips" : "Trips",
+  "@trips": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "let_trip_finder_access_your_location1" : "Let Yalla Tour access your location",
+  "@let_trip_finder_access_your_location1": {
+    "description": "The conventional newborn programmer greeting"
+  },"you_are_not_connected_to_internet" : "Check your internet connection",
+  "@you_are_not_connected_to_internet": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "let_trip_finder_access_your_location2" : "to find Trips nearby",
+  "@let_trip_finder_access_your_location2": {
+    "description": "The conventional newborn programmer greeting"
+  },"internet_connection" : "Internet Connection",
+  "@internet_connection": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "my_bookings" : "My Bookings",
+  "@my_bookings": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "confirm" : "Confirm",
+  "@confirm": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "canceling" : "Canceling",
+  "@canceling": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "check_out" : "Check out ",
+  "@check_out": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
+  "the_cancellation_fees" : "Cancellation fees is ",
+  "@the_cancellation_fees": {
+    "description": "The conventional newborn programmer greeting"
+  },"canceled_successfully" : "The booking is canceled",
+  "@canceled_successfully": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "are_you_sure_you_want_to_cancel" : "Are you sure you want to \n       cancel this trip ?",
+  "@are_you_sure_you_want_to_cancel": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "enable_location" : "Enable Location",
+  "@enable_location": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "booking_success" : "Booking success",
+  "@booking_success": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "there_is_no_bookings_for_you"  : "There is no Bookings",
+  "@there_is_no_bookings_for_you": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "my_wishlist" : "My Wishlist",
+  "@my_wishlist": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "my_favorite" : "My Favorites",
+  "@my_favorite": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "settings" : "Settings",
+  "@settings": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "viewonthemap" : "View on the map",
+  "@viewonthemap": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "book" : "Book",
+  "@book": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "continued" : "Continue",
+  "@continued": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "my_orders" : "My Orders",
+  "@my_orders": {
+    "description": "The conventional newborn programmer greeting"
+  },
+    "my_wallet" : "My Wallet",
+  "@my_wallet": {
+    "description": "The conventional newborn programmer greeting"
+  },
+     "my_account" : "My Account",
+  "@my_account": {
+    "description": "The conventional newborn programmer greeting"
+  },
+       "help" : "Help",
+  "@help": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "sort_by" : "Sort by",
+  "@sort_by": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "top_rated" : "Top rated",
+  "@top_rated": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "highest_price" : "Highest price",
+  "@highest_price": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "lowest_price" : "Lowest price",
+  "@lowest_price": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "most_booked" : "Most booked",
+  "@most_booked": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "sightseeing" : "Sightseeing",
+  "@sightseeing": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "diving" : "Diving",
+  "@diving": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "hiking" : "Hiking",
+  "@hiking": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "one_day" : "Day Tours",
+  "@one_day": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "dining" : "Dining",
+  "@dining": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "reviews" : "Reviews",
+  "@reviews": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "allow" : "Allow",
+  "@allow": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "not_allow" : "Not now ",
+  "@not_allow": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "organized_by" : "Organized by ",
+  "@organized_by": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "alert" : "Alert",
+  "@alert": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "login_now" : "Login Now",
+  "@login_now": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "login" : "Login",
+  "@login": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "where_are_you_going" : "Where are you going ?",
+  "@where_are_you_going": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "loading" : "Loading...",
+  "@loading": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "there_are_missing_filed" : "There are missing fields",
+  "@there_are_missing_filed": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "remaining_places" : "Remaining Places",
+  "@remaining_places": {
+    "description": "The conventional newborn programmer greeting"
+  },
+    "no_available_places" : "No available places for this date",
+  "@no_available_places": {
+    "description": "The conventional newborn programmer greeting"
+  },
+     "your_comment" : "Your Comment",
+  "@your_comment": {
+    "description": "The conventional newborn programmer greeting"
+  },
+     "price_summary" : "Price Summary",
+  "@price_summary": {
+    "description": "The conventional newborn programmer greeting"
+  },
+      "complete_booking" : "Complete Booking",
+  "@complete_booking": {
+    "description": "The conventional newborn programmer greeting"
+  },
+ "travellers" : "Travellers",
+  "@travellers": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "manage" : "Manage",
+  "@manage": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "warning" : "Warning !",
+  "@warning": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "login_to_access" : "Login to access Bookings",
+  "@login_to_access": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "day_price" : "Minimum Price",
+  "@day_price": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "login_to_access_my_favorite" : "Login to access Favorite",
+  "@login_to_access_my_favorite": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "you_must_login" : "You Must Login First ..",
+  "@you_must_login": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "starting_date" : "Starting Date",
+  "@starting_date": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "last_booking_date" : "Last Booking Date",
+  "@last_booking_date": {
+    "description": "The conventional newborn programmer greeting"
+  },"booking_date" : "Booking Date",
+  "@booking_date": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "location" : "Location",
+  "@location": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "about_this_trip" : "about this trip",
+  "@about_this_trip": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "activity_details" : "category",
+  "@activity_details": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "itinerary_details" : "Itinerary Details",
+  "@itinerary_details": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "inclusions" : "Inclusions",
+  "@inclusions": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "opps" : "Opps !",
+  "@opps": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "something_went" : "Something went wrong,",
+  "@something_went": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "please_try_again" : "Please try again",
+  "@please_try_again": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "connecting" : "Connecting ...",
+  "@connecting": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "you_must_choose_a_date" : "You must choose a date",
+  "@you_must_choose_a_date": {
+    "description": "The conventional newborn programmer greeting"
+  },"this_day_not_available" : "This date is not available",
+  "@this_day_not_available": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "national_id" : "NationalID",
+  "@national_id": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "the_field_is_required" : "The field is required",
+  "@the_field_is_required": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "retry" : "Retry",
+  "@retry": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "instructions" : "Instructions",
+  "@instructions": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "policies" : "Policies",
+  "@policies": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "search" : "Search",
+  "@search": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "book_now" : "Book Now",
+  "@book_now": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "price_list":"Price List",
+  "@price_list": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "order_list":"Order List",
+  "@order_list": {
+    "description": "The conventional newborn programmer greeting"
+  }, "the_session_has_been_expired":"Your session has been expired",
+  "@the_session_has_been_expired": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "book_again" : "Book Again",
+  "@book_again": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "reset" : "Reset",
+  "@reset": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "select_options" : "Select Options",
+  "@select_options": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "next" : "Next",
+  "@next": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "there_is_no_available_dates" : "There is no available dates",
+  "@there_is_no_available_dates": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "location_permission" : "Location Permission",
+  "@location_permission": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "we_need_location_permission" : "we need you to grant location permission",
+  "@we_need_location_permission": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "there_is_no_notifications" : "There's no Notifications",
+  "@there_is_no_notifications": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "budget_travel_package_to" : "Budget Travel Package To ",
+  "@budget_travel_package_to": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "login_to_access_notifications" : "Login to access Notifications",
+  "@login_to_access_notifications": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "adults" : "Adults",
+  "@adults": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "pull_down_to_refresh" : " Pull down Refresh",
+  "@pull_down_to_refresh": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "log_as_a_guest" : " LOG AS A GUEST",
+  "@log_as_a_guest": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "adult_price" : "Adult Price",
+  "@adult_price": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "child_price" : "Child Price",
+  "@child_price": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "child" : "Child",
+  "@child": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "from" : "From",
+  "@from": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "name" : "Name",
+  "@name": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "email" : "Email",
+  "@email": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "ok" : "OK",
+  "@ok": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "contact_info" : "Contact Info",
+  "@contact_info": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "phone_number" : "Phone number",
+  "@phone_number": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "promotions" : "Promotions",
+  "@promotions": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "please_enter_promo" : "Please enter promo code",
+  "@please_enter_promo": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "conditional_cancellation" : "Conditional Cancellation",
+  "@conditional_cancellation": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "traveler_info" : "Traveler info",
+  "@traveler_info": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "additional_information" : "Additional information",
+  "@additional_information": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "tour_activity_language" : "Tour/Activity language",
+  "@tour_activity_language": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "hotel_pickup_details" : "Hotel pickup details",
+  "@hotel_pickup_details": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "by_proceeding" : "by proceeding , i acknowledge that i have read and agree to Yalla Tour's ",
+  "@by_proceeding": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "terms_of_use" : "Terms of use",
+  "@terms_of_use": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "and" : "And",
+  "@and": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "total" : "Total",
+  "@total": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "privacy_statement" : "Privacy statement",
+  "@privacy_statement": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "exceptionallocation" : " Exceptional location",
+  "@exceptionallocation": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "this_day_is_unavailable" : " This day is unavailable, date available is",
+  "@this_day_is_unavailable": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "local_time" : "Local time",
+  "@local_time": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "currency" : "Currency",
+  "@currency": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "usd" : "usd",
+  "@usd": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "past" : "Past",
+  "@past": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "password" : "Password",
+  "@password": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "language" : "Language",
+  "@language": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "country" : "Country",
+  "@country": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "signin" : "Sign in",
+  "@signin": {
+    "description": "The conventional newborn programmer greeting"
+  }, "signup" : "Sign Up",
+  "@signup": {
+    "description": "The conventional newborn programmer greeting"
+  }, "or" : "Or",
+  "@or": {
+    "description": "The conventional newborn programmer greeting"
+  }, "mobile_number" : "Mobile Number",
+  "@mobile_number": {
+    "description": "The conventional newborn programmer greeting"
+  },"forgot_password" : "Forgot Password",
+  "@forgot_password": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "donothaveaccount" : "Don't have an account ?",
+  "@donothaveaccount": {
+    "description": "The conventional newborn programmer greeting"
+  }, "explore_as_guest" : "Explore as guest",
+  "@explore_as_guest": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "find_your_fav_product" : "Find your favorite Product",
+  "@find_your_fav_product": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "buy_now" : "Buy now",
+  "@buy_now": {
+    "description": "The conventional newborn programmer greeting"
+  },
+   "recent" : "Recent",
+  "@recent": {
+    "description": "The conventional newborn programmer greeting"
+  },
+    "trending" : "Trending",
+  "@trending": {
+    "description": "The conventional newborn programmer greeting"
+  },
+    "top" : "Top",
+  "@top": {
+    "description": "The conventional newborn programmer greeting"
+  },
+     "recommendation" : "Recommendation",
+  "@recommendation": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "register" : "Register",
+  "@register": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "units" : "Units",
+  "@units": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "temperature" : "Temperature",
+  "@temperature": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "termsandconditions" : "Terms And Conditions",
+  "@termsandconditions": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "version" : "Version",
+  "@version": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "english" : "English",
+  "@english": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "dollar" : "Dollar",
+  "@dollar": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "sar" : "SAR",
+  "@sar": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "upcoming" : "Upcoming",
+  "@upcoming": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "there_is_no_trips" :
+  "There are no trips matching your search",
+  "@there_is_no_trips": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "there_is_no_favorite_trips" :
+  "There is no Favorites",
+  "@there_is_no_favorite_trips": {
+    "description": "The conventional newborn programmer greeting"
+  }
+}

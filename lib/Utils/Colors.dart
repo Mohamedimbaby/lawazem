@@ -1,0 +1,35 @@
+import 'package:flutter/material.dart';
+
+const MAIN= Color(0xFFFF7465);
+const ORANGE_SHADED = Color(0xFFFEE7C7);
+const RED= Color(0xFFFC3637);
+const TEXT_COLOR= Color(0xFF001833);
+const SECOND_TEXT_COLOR= Color(0xFF001833);
+const GREY_TEXT_COLOR= Color(0xFF757575);
+const GREY_COLOR= Color(0xFFAAAAAA);
+const GREY_BG= Color(0xFFF7F8FB);
+const GREY_LOWEST= Color(0xFFF9F9F9);
+const GREY_ICON= Color(0xFFD8D8D8);
+const PINK_TEXT_COLOR= Color(0xFFFFBAB2);
+const PINK_GG_COLOR= Color(0xFFFFF7ED);
+const WHITE= Color(0xffffffff);
+const SECOND= Color(0xff24253d);
+const THIRD= Color(0xff1E58AF);
+const FOURTH= Color(0xff1E4B90);
+const FIFTH= Color(0xff4987CE);
+const SECONDARY= Color(0xfffff5d0);
+const FIRST_GREY =Color(0xffe7e6e1);
+const GREEN =Color(0xff5EA65A);
+const UN_READ = Color(0xffE7f3ff);
+const HIGHLIGHTED = Color(0xff24253d);
+const BLUE = Color(0xff6200ee);
+const secondHeadlineColor = Color(0xff80899a);
+const titleGreyColor = Color(0xff8191ac);
+const TEXT = Color(0xff8191ac);
+const headLineColor = Color(0xff24253d);
+const ORANGE = Color(0xffffaa00);
+const GREY = Color(0xfff2f4f6);
+const kHeadLine = Color(0xff001833);
+const kGrey400 = Color(0xFFAAAAAA);
+
+const CANCELLATION = Color(0XFF6200ee);
