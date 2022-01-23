@@ -1242,6 +1242,19 @@
   "@register": {
     "description": "The conventional newborn programmer greeting"
   },
+  "registerSentence": "Register in to Lawazem",
+  "@registerSentence": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "alreadyHaveAccount": "Already have an account?",
+  "@alreadyHaveAccount": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "registerCompany": "Company",
+  "@registerCompany": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
   "units" : "Units",
   "@units": {
     "description": "The conventional newborn programmer greeting"

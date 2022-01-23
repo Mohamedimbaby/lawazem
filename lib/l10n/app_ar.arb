@@ -331,11 +331,13 @@
 "duration":"المدة",
 "donothaveaccount":"لايوجد لدي بريد إلكتروني",
 "register":"تسجيل",
+"registerSentence" : "تسجيل الدخول الي لوازم",
+"alreadyHaveAccount" : "لديك أكونت؟",
+"registerCompany" : "شركة",
 "english":"الإنجليزية",
 "dollar":"دولار",
 "upcoming":"القادمة",
 "orloginwith":"أو قم بتسجيل الدخول ب البريد الإلكتروني",
 "there_is_no_trips":"لا يوجد رحلات ",
 "there_is_no_favorite_trips":"لا يوجد رحلات في المفضلة "
-
 }
