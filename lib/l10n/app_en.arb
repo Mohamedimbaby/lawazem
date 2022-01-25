@@ -1246,6 +1246,19 @@
   "@registerSentence": {
     "description": "The conventional newborn programmer greeting"
   },
+  "otpVerification": "OTP Verification",
+  "@otpVerification": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "otpVerificationDesc": "We sent OTP verification to your mobile this code will expire in 00:30",
+  "@otpVerificationDesc": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "continueVerify": "Continue",
+  "@continueVerify": {
+    "description": "The conventional newborn programmer greeting"
+  },
+
   "alreadyHaveAccount": "Already have an account?",
   "@alreadyHaveAccount": {
     "description": "The conventional newborn programmer greeting"

@@ -31,6 +31,7 @@ const ORANGE = Color(0xffffaa00);
 const GREY = Color(0xfff2f4f6);
 const kHeadLine = Color(0xff001833);
 const kGrey400 = Color(0xFFAAAAAA);
+const greyPinCode = Color(0xFFF7F8FB);
 
 const CANCELLATION = Color(0XFF6200ee);
 const BLACK_TEXT = Color(0XFF001833);

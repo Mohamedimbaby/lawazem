@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lawazem/Auth/Login/LoginScreen.dart';
+import 'package:lawazem/Auth/OTP/OtpScreen.dart';
 import 'package:lawazem/BaseModule/BaseScreen.dart';
 import 'package:lawazem/Utils/AppConfig.dart';
 import 'package:lawazem/Utils/Colors.dart';
@@ -181,7 +182,9 @@ class RegistrationState extends BaseState<RegistrationScreen> {
           ),
           Padding(
             padding: EdgeInsets.only(top: 42.r),
-            child: mainButton(AppConfig.labels!.register),
+            child: InkWell(
+                onTap: () => goToOtpScreen(),
+                child: mainButton(AppConfig.labels!.register)),
           ),
         ],
       ),
@@ -196,5 +199,11 @@ class RegistrationState extends BaseState<RegistrationScreen> {
   String? passwordValidate(String? text) {
     if (text!.length > 8) return null;
     return "error";
+  }
+
+  goToOtpScreen() {
+    Navigator.push(context, MaterialPageRoute(builder: (co) {
+      return OtpScreen();
+    }));
   }
 }

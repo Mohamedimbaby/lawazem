@@ -32,6 +32,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   connectivity: ^3.0.6
   shared_preferences: ^2.0.5
+  pin_code_fields:
 
   #STATE MANAGEMENT
   flutter_bloc: ^7.0.0
