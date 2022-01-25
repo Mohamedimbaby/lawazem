@@ -224,5 +224,9 @@
     "upcoming": "próximo",
     "orloginwith": "orloginwith",
     "there_is_no_trips": "there_is_no_trips",
-    "there_is_no_favorite_trips": "there_is_no_favorite_trips"
+    "there_is_no_favorite_trips": "there_is_no_favorite_trips",
+    "newPassword": "Nueva contraseña",
+    "resetPassword": "Restablecer su contraseña",
+    "resetPasswordDesc": "Ingrese y confirme su nueva contraseña a continuación para acceder a su cuenta",
+    "forgetPasswordDesc": "Ingrese su número de teléfono móvil y le enviaremos un código de verificación para restablecer su contraseña"
 }

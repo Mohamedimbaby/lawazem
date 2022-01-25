@@ -1309,5 +1309,25 @@
   "There is no Favorites",
   "@there_is_no_favorite_trips": {
     "description": "The conventional newborn programmer greeting"
+  },
+  "newPassword" :
+  "New Password",
+  "@newPassword": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "forgetPasswordDesc" :
+  "Please enter your mobile number and we will send you verification code to reset your password",
+  "@forgetPasswordDesc": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "resetPassword" :
+  "Reset Your Password",
+  "@resetPassword": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "resetPasswordDesc" :
+  "Please enter and confirm your new password below to access your account ",
+  "@resetPasswordDesc": {
+    "description": "The conventional newborn programmer greeting"
   }
 }

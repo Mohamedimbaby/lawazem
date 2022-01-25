@@ -13,6 +13,8 @@ import 'package:lawazem/Utils/Navigation.dart';
 import 'package:lawazem/Utils/Styles.dart';
 import 'package:lawazem/Utils/Widgets.dart';
 
+import 'forgetOrResetPassword.dart';
+
 class LoginScreen extends BaseStatefulWidget {
   @override
   _LoginScreenState createState() => _LoginScreenState();
@@ -120,8 +122,11 @@ class _LoginScreenState extends BaseState<LoginScreen> {
           SizedBox(
             height: 20.h,
           ),
-          Text(AppConfig.labels!.forgot_password,
-              style: boldText(14.sp, GREY_TEXT_COLOR)),
+          InkWell(
+            onTap: () => goToForgetPasswordScreen(),
+            child: Text(AppConfig.labels!.forgot_password,
+                style: boldText(14.sp, GREY_TEXT_COLOR)),
+          ),
           SizedBox(
             height: 40.h,
           ),
@@ -161,6 +166,13 @@ class _LoginScreenState extends BaseState<LoginScreen> {
   navigateToRegister() {
     Navigator.push(context, MaterialPageRoute(builder: (co) {
       return RegistrationScreen();
+    }));
+  }
+
+  goToForgetPasswordScreen() {
+    Navigator.push(context, MaterialPageRoute(builder: (co) {
+      return ForgetOrResetPasswordScreen(AppConfig.labels!.forget_password,
+          AppConfig.labels!.forgetPasswordDesc, false);
     }));
   }
 }

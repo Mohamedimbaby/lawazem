@@ -178,7 +178,8 @@ class RegistrationState extends BaseState<RegistrationScreen> {
                 suffixIcon: Icon(
                   Icons.remove_red_eye_outlined,
                   color: GREY_TEXT_COLOR,
-                )),
+                ),
+                obscure: true),
           ),
           Padding(
             padding: EdgeInsets.only(top: 42.r),
