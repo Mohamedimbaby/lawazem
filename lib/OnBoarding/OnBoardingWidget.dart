@@ -23,7 +23,7 @@ class OnBoardingWidget extends BaseStatefulWidget {
 class OnBoardingState extends BaseState<OnBoardingWidget> {
   int page = 0;
   PageController controller =
-      PageController(viewportFraction: 0.8, keepPage: true);
+      PageController(viewportFraction: 1.0, keepPage: true);
   BehaviorSubject<int> rxPageViewer = BehaviorSubject();
   bool isLoggedIn = false;
 
