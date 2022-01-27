@@ -6,7 +6,7 @@ import 'package:lawazem/Utils/Dimensions.dart';
 import 'package:lawazem/Utils/ImagesPathes.dart';
 import 'package:lawazem/Utils/Navigation.dart';
 import 'package:lawazem/Utils/Skelton.dart';
-import 'package:lawazem/Utils/Stylesreenutil.dart';
+import 'package:lawazem/Utils/Styles.dart';
 
 Widget drawLine = Row(children: <Widget>[
   Expanded(child: Divider()),
@@ -38,7 +38,7 @@ Widget myTextFormField(
       controller: controller,
       textAlignVertical: TextAlignVertical.center,
       cursorColor: Colors.black,
-      obscureText: obscure,
+      obscureText: obscure ?? false,
       decoration: InputDecoration(
           border: InputBorder.none,
           disabledBorder: InputBorder.none,

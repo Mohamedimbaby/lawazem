@@ -171,7 +171,7 @@ class _LoginScreenState extends BaseState<LoginScreen> {
 
   goToForgetPasswordScreen() {
     Navigator.push(context, MaterialPageRoute(builder: (co) {
-      return ForgetOrResetPasswordScreen(AppConfig.labels!.forget_password,
+      return ForgetOrResetPasswordScreen(AppConfig.labels!.forgot_password,
           AppConfig.labels!.forgetPasswordDesc, false);
     }));
   }

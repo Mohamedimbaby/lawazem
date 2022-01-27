@@ -168,8 +168,8 @@ class ForgetOrResetPasswordState
   continueMethod() {
     if (!widget.isResetPassword) {
       Navigator.push(context, MaterialPageRoute(builder: (co) {
-        return ForgetOrResetPasswordScreen(AppConfig.labels!.forget_password,
-            AppConfig.labels!.forgetPasswordDesc, false);
+        return ForgetOrResetPasswordScreen(AppConfig.labels!.resetPassword,
+            AppConfig.labels!.resetPasswordDesc, true);
       }));
     }
   }
