@@ -5,6 +5,8 @@ import 'package:flutter/cupertino.dart';
 enum AppFlavour {
   staging , prod
 }
+String loginUrl = "https://170b60cc93.nxcli.net/wp-json/woo-jwt/v1/login?username=mohamedimbabyimbo99@gmail.com&password=mohamedimbaby201";
+String registerUrl = "https://170b60cc93.nxcli.net/wc-api/v3/customers";
 class ApiNetworkService {
   static  String baseUrl = "";
   static setAppFlavour (AppFlavour appFlavour){
@@ -18,7 +20,7 @@ class ApiNetworkService {
     }
   }
   static String basicAuth =
-      'Basic ' + base64Encode(utf8.encode("ck_3da5ae4206b01cc0d3fcff74b0b1604167743812:cs_3b2b0b553a8fb3395c27f19a73367371042ec7ea"));
+      'Basic ' + base64Encode(utf8.encode("ck_f12b27c52c6bd7cc607e9bad85fe6b1ec403ca2a:cs_ca312b6b4d32db5f89914255a56d857c92655909"));
   static var dio = Dio();
 
  static networkRequest (ApiMethod apiMethod ,String service, {dynamic parameter} )async{
