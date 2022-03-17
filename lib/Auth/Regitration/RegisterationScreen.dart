@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lawazem/Auth/Login/LoginScreen.dart';
+import 'package:lawazem/Auth/Login/bloc/LoginBloc.dart';
 import 'package:lawazem/Auth/OTP/OtpScreen.dart';
 import 'package:lawazem/Auth/Regitration/bloc/RegistertionBloc.dart';
 import 'package:lawazem/Auth/Regitration/bloc/RegistrationEvent.dart';
@@ -11,6 +12,8 @@ import 'package:lawazem/Utils/AppConfig.dart';
 import 'package:lawazem/Utils/Colors.dart';
 import 'package:lawazem/Utils/Dimensions.dart';
 import 'package:lawazem/Utils/ImagesPathes.dart';
+import 'package:lawazem/Utils/Navigation.dart';
+import 'package:lawazem/Utils/ResultStatusEnum.dart';
 import 'package:lawazem/Utils/Styles.dart';
 import 'package:lawazem/Utils/Widgets.dart';
 
@@ -36,6 +39,13 @@ class RegistrationScreenState extends BaseState<RegistrationScreen> {
   Widget getScreenBody(BuildContext context) {
     return BlocListener<RegistrationBloc, RegistrationState>(
       listener: (context, state) {
+        if (state.status == ResultStatus.Success) {
+          navigateToHomeScreen();
+        } else if (state.status == ResultStatus.Loading) {
+          showLoadingWidget();
+        } else if (state.status == ResultStatus.Error) {
+          showErrorMsg(state.errorMsg!);
+        }
         Container();
       },
       child: Container(
@@ -113,9 +123,8 @@ class RegistrationScreenState extends BaseState<RegistrationScreen> {
   }
 
   navigateToLoginScreen() {
-    Navigator.push(context, MaterialPageRoute(builder: (co) {
-      return LoginScreen();
-    }));
+    navigateTo(context,
+        BlocProvider(create: (c) => LoginBloc(), child: LoginScreen()));
   }
 
   _buildRegisterForm() {
@@ -228,8 +237,6 @@ class RegistrationScreenState extends BaseState<RegistrationScreen> {
   }
 
   goToOtpScreen() {
-    Navigator.push(context, MaterialPageRoute(builder: (co) {
-      return OtpScreen();
-    }));
+    navigateTo(context, OtpScreen());
   }
 }

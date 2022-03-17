@@ -5,9 +5,8 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lawazem/Auth/Login/bloc/LoginBloc.dart';
 import 'package:lawazem/Auth/Login/bloc/LoginState.dart';
 import 'package:lawazem/Auth/Regitration/RegisterationScreen.dart';
+import 'package:lawazem/Auth/Regitration/bloc/RegistertionBloc.dart';
 import 'package:lawazem/BaseModule/BaseScreen.dart';
-import 'package:lawazem/Home/HomeScreen.dart';
-import 'package:lawazem/Products/ProductBloc.dart';
 import 'package:lawazem/Utils/AppConfig.dart';
 import 'package:lawazem/Utils/Colors.dart';
 import 'package:lawazem/Utils/Dimensions.dart';
@@ -41,10 +40,11 @@ class _LoginScreenState extends BaseState<LoginScreen> {
     return BlocListener<LoginBloc, LoginState>(
       listener: (context, state) {
         if (state.status == ResultStatus.Success) {
-          print("helllllllllllllo");
           navigateToHomeScreen();
-        } else {
-          print("nooooooooooooo");
+        } else if (state.status == ResultStatus.Loading) {
+          showLoadingWidget();
+        } else if (state.status == ResultStatus.Error) {
+          showErrorMsg(state.errorMsg!);
         }
         Container();
       },
@@ -163,12 +163,7 @@ class _LoginScreenState extends BaseState<LoginScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               GestureDetector(
-                  onTap: () {
-                    navigateTo(
-                        context,
-                        BlocProvider(
-                            create: (c) => ProductBloc(), child: HomeScreen()));
-                  },
+                  onTap: () => navigateToHomeScreen(),
                   child: Text(AppConfig.labels!.explore_as_guest,
                       style: semiBoldText(14.sp, MAIN))),
             ],
@@ -188,15 +183,10 @@ class _LoginScreenState extends BaseState<LoginScreen> {
   }
 
   navigateToRegister() {
-    Navigator.push(context, MaterialPageRoute(builder: (co) {
-      return RegistrationScreen();
-    }));
-  }
-
-  navigateToHomeScreen() {
-    Navigator.push(context, MaterialPageRoute(builder: (co) {
-      return HomeScreen();
-    }));
+    navigateTo(
+        context,
+        BlocProvider(
+            create: (c) => RegistrationBloc(), child: RegistrationScreen()));
   }
 
   goToForgetPasswordScreen() {
@@ -209,25 +199,5 @@ class _LoginScreenState extends BaseState<LoginScreen> {
   login() {
     _loginBloc
         .add(LoginEvent(userNameController.text, passwordController.text));
-  }
-
-  void showErrorMsg(String errorMsg) {
-    showDialog(
-        context: context,
-        barrierDismissible: true,
-        builder: (c) {
-          return Center(
-            child: AlertDialog(
-              title: Text(
-                AppConfig.labels!.warning,
-                style: boldText(20, RED),
-              ),
-              content: Text(
-                errorMsg,
-                style: boldText(18, MAIN),
-              ),
-            ),
-          );
-        });
   }
 }
