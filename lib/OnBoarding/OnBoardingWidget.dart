@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:lawazem/Auth/Login/LoginScreen.dart';
+import 'package:lawazem/Auth/Login/bloc/LoginBloc.dart';
 import 'package:lawazem/BaseModule/BaseScreen.dart';
-import 'package:lawazem/Home/HomeScreen.dart';
 import 'package:lawazem/Products/ProductBloc.dart';
 import 'package:lawazem/Utils/AppConfig.dart';
 import 'package:lawazem/Utils/Colors.dart';
@@ -96,7 +96,8 @@ class OnBoardingState extends BaseState<OnBoardingWidget> {
                             start: 20, end: 20, top: 20, bottom: 20),
                         margin: const EdgeInsets.all(50),
                         decoration: BoxDecoration(
-                            color: MAIN, borderRadius: BorderRadius.circular(32)),
+                            color: MAIN,
+                            borderRadius: BorderRadius.circular(32)),
                         child: Text(
                           getButtonText(page),
                           style: const TextStyle(
@@ -163,14 +164,20 @@ class OnBoardingState extends BaseState<OnBoardingWidget> {
   }
 
   void onTapDone() {
-    if(isLoggedIn){
-      navigateTo(context, BlocProvider(
-          create: (c)=>ProductBloc(),
-          child: LoginScreen()));
-    }else{
-      navigateTo(context, BlocProvider(
-          create: (c)=>ProductBloc(),
-          child: LoginScreen()));
+    if (isLoggedIn) {
+      navigateTo(
+          context,
+          BlocProvider(
+              create: (c) => ProductBloc(),
+              child: BlocProvider(
+                  create: (c) => LoginBloc(), child: LoginScreen())));
+    } else {
+      navigateTo(
+          context,
+          BlocProvider(
+              create: (c) => ProductBloc(),
+              child: BlocProvider(
+                  create: (c) => LoginBloc(), child: LoginScreen())));
     }
   }
 
@@ -188,7 +195,7 @@ class OnBoardingState extends BaseState<OnBoardingWidget> {
   }
 
   void checkIfItIsLoggedIn() {
-    if (SharedPref.getLoggedIn()!=null && SharedPref.getLoggedIn()) {
+    if (SharedPref.getLoggedIn() != null && SharedPref.getLoggedIn()) {
       isLoggedIn = true;
     }
   }

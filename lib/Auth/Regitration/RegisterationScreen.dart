@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lawazem/Auth/Login/LoginScreen.dart';
 import 'package:lawazem/Auth/OTP/OtpScreen.dart';
+import 'package:lawazem/Auth/Regitration/bloc/RegistertionBloc.dart';
+import 'package:lawazem/Auth/Regitration/bloc/RegistrationEvent.dart';
+import 'package:lawazem/Auth/Regitration/bloc/RegistrationState.dart';
 import 'package:lawazem/BaseModule/BaseScreen.dart';
 import 'package:lawazem/Utils/AppConfig.dart';
 import 'package:lawazem/Utils/Colors.dart';
@@ -12,37 +16,50 @@ import 'package:lawazem/Utils/Widgets.dart';
 
 class RegistrationScreen extends BaseStatefulWidget {
   @override
-  State<StatefulWidget> createState() => RegistrationState();
+  State<StatefulWidget> createState() => RegistrationScreenState();
 }
 
-class RegistrationState extends BaseState<RegistrationScreen> {
+class RegistrationScreenState extends BaseState<RegistrationScreen> {
   TextEditingController _companyController = TextEditingController();
   TextEditingController _crNumberController = TextEditingController();
   TextEditingController _numberController = TextEditingController();
   TextEditingController _passwordController = TextEditingController();
+  late RegistrationBloc _registrationBloc;
+
+  @override
+  initState() {
+    super.initState();
+    _registrationBloc = BlocProvider.of<RegistrationBloc>(context);
+  }
+
   @override
   Widget getScreenBody(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.symmetric(horizontal: 28.r),
-      color: WHITE,
-      child: SingleChildScrollView(
-        child: Column(
-          mainAxisSize: MainAxisSize.max,
-          mainAxisAlignment: MainAxisAlignment.start,
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            _buildRegisterLogo(),
-            _buildRegisterTitle(),
-            _biuldRegisterDescription(),
-            Padding(
-              padding: EdgeInsets.only(top: 47.r),
-              child: drawLine,
-            ),
-            Padding(
-              padding: EdgeInsets.only(top: 32.r),
-              child: _buildRegisterForm(),
-            )
-          ],
+    return BlocListener<RegistrationBloc, RegistrationState>(
+      listener: (context, state) {
+        Container();
+      },
+      child: Container(
+        padding: EdgeInsets.symmetric(horizontal: 28.r),
+        color: WHITE,
+        child: SingleChildScrollView(
+          child: Column(
+            mainAxisSize: MainAxisSize.max,
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              _buildRegisterLogo(),
+              _buildRegisterTitle(),
+              _biuldRegisterDescription(),
+              Padding(
+                padding: EdgeInsets.only(top: 47.r),
+                child: drawLine,
+              ),
+              Padding(
+                padding: EdgeInsets.only(top: 32.r),
+                child: _buildRegisterForm(),
+              )
+            ],
+          ),
         ),
       ),
     );
@@ -184,7 +201,7 @@ class RegistrationState extends BaseState<RegistrationScreen> {
           Padding(
             padding: EdgeInsets.only(top: 42.r),
             child: InkWell(
-                onTap: () => goToOtpScreen(),
+                onTap: () => register(),
                 child: mainButton(AppConfig.labels!.register)),
           ),
         ],
@@ -200,6 +217,14 @@ class RegistrationState extends BaseState<RegistrationScreen> {
   String? passwordValidate(String? text) {
     if (text!.length > 8) return null;
     return "error";
+  }
+
+  register() {
+    _registrationBloc.add(RegistrationEvent(
+        _companyController.text,
+        _crNumberController.text,
+        _numberController.text,
+        _passwordController.text));
   }
 
   goToOtpScreen() {
