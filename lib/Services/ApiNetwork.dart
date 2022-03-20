@@ -76,7 +76,7 @@ class ApiNetworkService {
     } else {
       printRequestDetails(service + body, body);
       var response = await dio.post(baseUrl + service,
-          data: jsonEncode(body),
+          data: body,
           options:
               Options(headers: <String, String>{'authorization': basicAuth}));
       return checkIsValidResponse(response);
