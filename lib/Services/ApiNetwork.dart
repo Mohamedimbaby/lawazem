@@ -74,12 +74,16 @@ class ApiNetworkService {
               Options(headers: <String, String>{'authorization': basicAuth}));
       return checkIsValidResponse(response);
     } else {
-      printRequestDetails(service + body, body);
-      var response = await dio.post(baseUrl + service,
-          data: body,
-          options:
-              Options(headers: <String, String>{'authorization': basicAuth}));
-      return checkIsValidResponse(response);
+      try {
+        printRequestDetails(service + body, body);
+        var response = await dio.post(baseUrl + service,
+            data: body,
+            options:
+                Options(headers: <String, String>{'authorization': basicAuth}));
+        return checkIsValidResponse(response);
+      } catch (ex) {
+        return "An undefined error happened";
+      }
     }
   }
 
@@ -90,6 +94,8 @@ class ApiNetworkService {
     switch (response.statusCode) {
       case 200:
         return response.data;
+      case 400:
+        return response.statusMessage;
       case 401:
         throw Exception("Un Authorized Response");
       case 404:

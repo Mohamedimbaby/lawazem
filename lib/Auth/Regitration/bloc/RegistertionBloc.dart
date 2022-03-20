@@ -14,8 +14,8 @@ class RegistrationBloc extends Bloc<RegistrationEvent, RegistrationState> {
     if (registrationUser.customer != null) {
       yield (RegistrationState(ResultStatus.Success, user: registrationUser));
     } else {
-      yield (RegistrationState(ResultStatus.Success,
-          errorMsg: "registration-error-email-exists"));
+      yield (RegistrationState(ResultStatus.Error,
+          errorMsg: "An undefined error happened"));
     }
   }
 }
