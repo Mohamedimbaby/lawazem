@@ -33,7 +33,8 @@ class ApiNetworkService {
         response = await applyGetRequest(service, parameter: parameter);
         break;
       case ApiMethod.POST:
-        response = await applyPostRequest(service, parameter: parameter);
+        response =
+            await applyPostRequest(service, parameter: parameter, body: body);
         break;
       case ApiMethod.DELETE:
         response = await applyDeleteRequest();
@@ -73,7 +74,7 @@ class ApiNetworkService {
               Options(headers: <String, String>{'authorization': basicAuth}));
       return checkIsValidResponse(response);
     } else {
-      printRequestDetails(service + parameter, parameter);
+      printRequestDetails(service + body, body);
       var response = await dio.post(baseUrl + service,
           data: jsonEncode(body),
           options:

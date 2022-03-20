@@ -233,7 +233,8 @@ class RegistrationScreenState extends BaseState<RegistrationScreen> {
         _companyController.text,
         _crNumberController.text,
         _numberController.text,
-        _passwordController.text));
+        _passwordController.text,
+        "${_companyController.text}@gmail.com"));
   }
 
   goToOtpScreen() {

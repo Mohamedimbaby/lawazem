@@ -7,11 +7,11 @@ class RegistrationRepo {
     var body =
         '{"customer":{"facilities":"small_facilities","job_title":"Developer",'
         '"type_company":"startups","company":"${event.company}","phone":"${event.mobileNumber}",'
-        '"commercial_No":"${event.crNumber}","email":"hadeer@gmail.com","first_name":"Hadeer",'
-        '"last_name":"Mohamed","username":"hadeer","password":"${event.password}","billing_address":'
+        '"commercial_No":"${event.crNumber}","email":"${event.email}","first_name":"${event.company}",'
+        '"last_name":"Mohamed","username":"${event.company}","password":"${event.password}","billing_address":'
         '{"first_name":"John","last_name":"Doe","company":"${event.company}","address_1":"969 Market","address_2"'
         ':"","city":"San Francisco","state":"CA","postcode":"94103","country":"US","email"'
-        ':"hadeer@gmail.com","phone":"${event.mobileNumber}"},"shipping_address":{"first_name":"John",'
+        ':"${event.email}","phone":"${event.mobileNumber}"},"shipping_address":{"first_name":"John",'
         '"last_name":"Doe","company":"${event.company}","address_1":"969 Market","address_2":"","city":'
         '"San Francisco","state":"CA","postcode":"94103","country":"US"}}}';
     var response = await ApiNetworkService.networkRequest(
