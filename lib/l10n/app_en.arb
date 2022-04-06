@@ -1329,5 +1329,52 @@
   "Please enter and confirm your new password below to access your account ",
   "@resetPasswordDesc": {
     "description": "The conventional newborn programmer greeting"
+  },
+  "jacket" :
+  "Jacket",
+  "@jacket": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "handBag" :
+  "HandBag",
+  "@handBag": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "gloves" :
+  "Gloves",
+  "@gloves": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "spectacle" :
+  "Spectacle",
+  "@spectacle": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "kimono" :
+  "Kimono",
+  "@kimono": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "blazer" :
+  "Blazer",
+  "@blazer": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "suits" :
+  "Suits",
+  "@suits": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "dress" :
+  "Dress",
+  "@dress": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "hat" :
+  "Hat",
+  "@hat": {
+    "description": "The conventional newborn programmer greeting"
   }
+
+
 }

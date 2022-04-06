@@ -20,4 +20,11 @@ class ImagePaths {
   static const HELP = _ASSET_IMAGE + "help" + _PNG;
   static const LANG = _ASSET_IMAGE + "lang" + _PNG;
   static const BACK_ARROW = _ASSET_IMAGE + "back_arrow" + _PNG;
+  static const SEARCH_ICON = _ASSET_IMAGE + "search_icon" + _PNG;
+  static const CATEGORY_ONE = _ASSET_IMAGE + "cat1" + _PNG;
+  static const CATEGORY_TWO = _ASSET_IMAGE + "cat2" + _PNG;
+  static const CATEGORY_THREE = _ASSET_IMAGE + "cat3" + _PNG;
+  static const CATEGORY_FOUR = _ASSET_IMAGE + "cat4" + _PNG;
+  static const CATEGORY_FIVE = _ASSET_IMAGE + "cat5" + _PNG;
+  static const CATEGORY_SIX = _ASSET_IMAGE + "cat6" + _PNG;
 }

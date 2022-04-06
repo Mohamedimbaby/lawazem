@@ -25,8 +25,9 @@ Widget myTextFormField(
     TextEditingController controller,
     String? Function(String? text) validate,
     {Icon? suffixIcon,
-    Icon? prefixIcon,
-    bool? obscure}) {
+    Widget? prefixIcon,
+    bool? obscure,
+    Function? onClick}) {
   return Container(
     width: width,
     height: height,
@@ -45,20 +46,20 @@ Widget myTextFormField(
           focusedBorder: InputBorder.none,
           enabledBorder: InputBorder.none,
           errorBorder: InputBorder.none,
-          prefixText: "      ",
           suffixIconConstraints: BoxConstraints(
-            minHeight: 70,
-            minWidth: 70,
+            minHeight: 20.r,
+            minWidth: 20.r,
           ),
           prefixIconConstraints: BoxConstraints(
-            minHeight: 70,
-            minWidth: 70,
+            minHeight: 40.r,
+            minWidth: 60.r,
           ),
           suffixIcon: suffixIcon ?? null,
           prefixIcon: prefixIcon ?? null,
           hintText: hintText,
           hintStyle: semiBoldText(14.sp, GREY_COLOR)),
       validator: validate,
+      onTap: () => onClick!(),
     ),
   );
 }

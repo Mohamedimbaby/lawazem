@@ -35,3 +35,5 @@ const greyPinCode = Color(0xFFF7F8FB);
 
 const CANCELLATION = Color(0XFF6200ee);
 const BLACK_TEXT = Color(0XFF001833);
+const BLACK = Color(0XFF000000);
+const BLACK_WITH_OPACITY = Color(0X4D001833);

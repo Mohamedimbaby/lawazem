@@ -1,28 +1,27 @@
-import 'package:lawazem/Account/AccountScreen.dart';
-import 'package:lawazem/Offers/OffersScreen.dart';
-import 'package:lawazem/Utils/SharedPref.dart';
-import 'package:lawazem/Utils/Widgets.dart';
 import 'package:animated_bottom_navigation_bar/animated_bottom_navigation_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
+import 'package:lawazem/Account/AccountScreen.dart';
 import 'package:lawazem/Cart/CartScreen.dart';
 import 'package:lawazem/Models/ProductsModel.dart';
 import 'package:lawazem/Models/UiModels/TabModel.dart';
+import 'package:lawazem/Offers/OffersScreen.dart';
 import 'package:lawazem/Products/ProductBloc.dart';
 import 'package:lawazem/Products/ProductDetails.dart';
 import 'package:lawazem/Products/ProductEvent.dart';
 import 'package:lawazem/Products/ProductState.dart';
 import 'package:lawazem/Products/ProductsRepo.dart';
+import 'package:lawazem/Search/SearchScreen.dart';
 import 'package:lawazem/Utils/AppConfig.dart';
 import 'package:lawazem/Utils/Colors.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lawazem/Utils/Dimensions.dart';
 import 'package:lawazem/Utils/ImagesPathes.dart';
 import 'package:lawazem/Utils/Navigation.dart';
 import 'package:lawazem/Utils/ResultStatusEnum.dart';
-import 'package:lawazem/Utils/Skelton.dart';
+import 'package:lawazem/Utils/SharedPref.dart';
 import 'package:lawazem/Utils/Styles.dart';
 import 'package:lawazem/Utils/Widgets.dart';
 import 'package:lawazem/favorites/favoriteScreen.dart';
@@ -56,7 +55,6 @@ class _HomeScreenState extends State<HomeScreen>
     Icons.person,
   ];
 
-
   @override
   void dispose() {
     // TODO: implement dispose
@@ -64,12 +62,12 @@ class _HomeScreenState extends State<HomeScreen>
     rxLikeProduct.close();
     super.dispose();
   }
+
   List<TabModel> tabs = [];
   HomeTabs currentHomeTab = HomeTabs.recent;
 
   @override
   void initState() {
-
     // TODO: implement initState
 
     bloc = context.read<ProductBloc>();
@@ -101,7 +99,7 @@ class _HomeScreenState extends State<HomeScreen>
 
   @override
   Widget build(BuildContext context) {
-    tabs= [
+    tabs = [
       TabModel(AppConfig.labels!.recent, 0),
       TabModel(AppConfig.labels!.top, 1),
     ];
@@ -115,7 +113,7 @@ class _HomeScreenState extends State<HomeScreen>
         backgroundColor: MAIN,
         onPressed: () {
           setState(() {
-            _bottomNavIndex = 4 ;
+            _bottomNavIndex = 4;
           });
         },
         child: Image.asset(ImagePaths.ICON1),
@@ -131,10 +129,10 @@ class _HomeScreenState extends State<HomeScreen>
         leftCornerRadius: 32,
         rightCornerRadius: 32,
         onTap: (index) {
-          if(index == 1){
+          if (index == 1) {
             navigateTo(context, CartScreen());
-          }
-          else setState(() => _bottomNavIndex = index);
+          } else
+            setState(() => _bottomNavIndex = index);
         },
         //other params
       ),
@@ -143,7 +141,6 @@ class _HomeScreenState extends State<HomeScreen>
 
   Widget _buildProductItem(int index, ProductModel product) {
     ImageProvider image;
-
 
     if (product.images!.length > 0) {
       image = NetworkImage(product.images![0].src!);
@@ -187,7 +184,7 @@ class _HomeScreenState extends State<HomeScreen>
                 children: [
                   Flexible(
                       child: Text(
-                    product.price!+" " + AppConfig.labels!.sar,
+                    product.price! + " " + AppConfig.labels!.sar,
                     style: boldText(16.sp, MAIN),
                   )),
                 ],
@@ -204,7 +201,7 @@ class _HomeScreenState extends State<HomeScreen>
                     onTap: () {
                       likeThisProduct(product);
                     },
-                    child:  likedWidget(checkIfLiked(product)),
+                    child: likedWidget(checkIfLiked(product)),
                   );
                 }),
           ),
@@ -304,7 +301,7 @@ class _HomeScreenState extends State<HomeScreen>
     return Column(
       children: [
         SizedBox(
-          height: 30.h,
+          height: 90.h,
         ),
         Padding(
           padding: const EdgeInsets.symmetric(horizontal: 20),
@@ -318,7 +315,8 @@ class _HomeScreenState extends State<HomeScreen>
               prefixIcon: Icon(
                 Icons.search,
                 color: GREY_COLOR,
-              )),
+              ),
+              onClick: openSearchScreen),
         ),
         SizedBox(
           height: 10.h,
@@ -383,7 +381,7 @@ class _HomeScreenState extends State<HomeScreen>
   checkIfLiked(product) {
     if (AppConfig.likedItems.map((e) => e.id).toList().contains(product.id)) {
       return true;
-    }else
+    } else
       return false;
   }
 
@@ -391,12 +389,14 @@ class _HomeScreenState extends State<HomeScreen>
     if (!checkIfLiked(product)) {
       AppConfig.likedItems.add(product);
       rxLikeProduct.sink.add(true);
-    }
-    else {
+    } else {
       AppConfig.likedItems.removeWhere((element) => element.id == product.id);
       rxLikeProduct.sink.add(true);
     }
     SharedPref.saveLikes(AppConfig.likedItems);
+  }
 
+  openSearchScreen() {
+    navigateTo(context, SearchScreen());
   }
 }
