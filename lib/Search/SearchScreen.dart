@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:lawazem/BaseModule/BaseScreen.dart';
 import 'package:lawazem/Utils/AppConfig.dart';
 import 'package:lawazem/Utils/Colors.dart';
@@ -26,8 +27,8 @@ class SearchScreenState extends BaseState<SearchScreen> {
   List<CategoryModel> categories = [
     CategoryModel(ImagePaths.CATEGORY_ONE, AppConfig.labels!.blazer),
     CategoryModel(ImagePaths.CATEGORY_TWO, AppConfig.labels!.hat),
-    CategoryModel(ImagePaths.CATEGORY_THREE, AppConfig.labels!.dress),
     CategoryModel(ImagePaths.CATEGORY_FOUR, AppConfig.labels!.suits),
+    CategoryModel(ImagePaths.CATEGORY_THREE, AppConfig.labels!.dress),
     CategoryModel(ImagePaths.CATEGORY_FIVE, AppConfig.labels!.blazer),
     CategoryModel(ImagePaths.CATEGORY_SIX, AppConfig.labels!.blazer),
   ];
@@ -140,40 +141,41 @@ class SearchScreenState extends BaseState<SearchScreen> {
               ),
             ),
             Expanded(
-              child: GridView.count(
-                shrinkWrap: true,
-                crossAxisCount: 2,
-                scrollDirection: Axis.vertical,
-                crossAxisSpacing: 10,
-                mainAxisSpacing: 20,
-                children: categories.map<Widget>((category) {
-                  return Container(
-                    decoration: BoxDecoration(
-                        image: DecorationImage(
-                            image: AssetImage(category.image),
-                            fit: BoxFit.cover),
-                        color: BLACK_WITH_OPACITY,
-                        borderRadius: BorderRadius.all(Radius.circular(15))),
-                    child: Container(
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.all(Radius.circular(15)),
-                        boxShadow: [
-                          BoxShadow(
+                child: StaggeredGridView.countBuilder(
+                    shrinkWrap: true,
+                    crossAxisCount: 4,
+                    itemCount: categories.length,
+                    staggeredTileBuilder: (int index) =>
+                        new StaggeredTile.count(2, index.isEven ? 2.4 : 1.8),
+                    mainAxisSpacing: 10.0,
+                    crossAxisSpacing: 20.0,
+                    itemBuilder: (BuildContext context, int index) {
+                      return Container(
+                        decoration: BoxDecoration(
+                            image: DecorationImage(
+                                image: AssetImage(categories[index].image),
+                                fit: BoxFit.fill),
                             color: BLACK_WITH_OPACITY,
-                          )
-                        ],
-                      ),
-                      child: Center(
-                        child: Text(
-                          category.name,
-                          style: normalText(18.sp, WHITE),
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(15))),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.all(Radius.circular(15)),
+                            boxShadow: [
+                              BoxShadow(
+                                color: BLACK_WITH_OPACITY,
+                              )
+                            ],
+                          ),
+                          child: Center(
+                            child: Text(
+                              categories[index].name,
+                              style: normalText(18.sp, WHITE),
+                            ),
+                          ),
                         ),
-                      ),
-                    ),
-                  );
-                }).toList(),
-              ),
-            )
+                      );
+                    }))
           ],
         ));
   }
