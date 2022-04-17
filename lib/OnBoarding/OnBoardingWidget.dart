@@ -129,7 +129,7 @@ class OnBoardingState extends BaseState<OnBoardingWidget> {
             height: MyDimensions.screenHeight * .4,
             decoration: BoxDecoration(
               image: DecorationImage(
-                  fit: BoxFit.fill,
+                  fit: BoxFit.fitHeight,
                   image: AssetImage(
                     data['image'],
                   )),
